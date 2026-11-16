@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#f6f2e9">
+	<title>Моя кофейня — кофе, с которого начинается день</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header class="site-header">
+		<div class="container header-inner">
+			<a class="brand" href="#top" aria-label="Моя кофейня — на главную">
+				<span class="brand-mark" aria-hidden="true">м.</span>
+				<span>моя кофейня</span>
+			</a>
+			<nav class="site-nav" aria-label="Основная навигация">
+				<a href="#menu">Меню</a>
+				<a href="#about">О нас</a>
+				<a href="#contacts">Контакты</a>
+			</nav>
+		</div>
+	</header>
+
+	<main id="top">
+		<section class="hero container" id="about" aria-labelledby="hero-title">
+			<div class="hero-copy">
+				<p class="eyebrow"><span class="eyebrow-line"></span>Кофейня у вашего дома</p>
+				<h1 id="hero-title">Кофе, с которого <em>начинается</em> день</h1>
+				<p class="hero-description">Обжариваем зерно, варим любимый кофе и оставляем время на самое важное — выдохнуть и почувствовать момент.</p>
+				<a class="button" href="#menu">Посмотреть меню <span aria-hidden="true">↗</span></a>
+				<p class="hero-note"><span aria-hidden="true">✳</span> Каждая чашка — с заботой</p>
+			</div>
+			<div class="hero-media">
+				<img
+					src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&amp;fit=crop&amp;w=1200&amp;q=85"
+					alt="Свежесваренный кофе на деревянном столе в кофейне"
+					width="1200"
+					height="900"
+				>
+				<span class="photo-caption">Медленное утро, хороший кофе</span>
+			</div>
+		</section>
+
+		<section class="menu-section" id="menu" aria-labelledby="menu-title">
+			<div class="container">
+				<div class="section-heading">
+					<div>
+						<p class="eyebrow"><span class="eyebrow-line"></span>Выбирайте настроение</p>
+						<h2 id="menu-title">Наше меню</h2>
+					</div>
+					<p class="section-aside">Знакомая классика<br>и ничего лишнего</p>
+				</div>
+				<div class="drink-list">
+					<article class="drink-card">
+						<div class="drink-top"><span class="drink-number">01</span><span class="drink-symbol espresso" aria-hidden="true"></span></div>
+						<h3>Эспрессо</h3>
+						<p>Плотный, насыщенный, с нотами тёмного шоколада.</p>
+						<div class="drink-bottom"><span>30 мл</span><strong>180 ₽</strong></div>
+					</article>
+					<article class="drink-card">
+						<div class="drink-top"><span class="drink-number">02</span><span class="drink-symbol cappuccino" aria-hidden="true"></span></div>
+						<h3>Капучино</h3>
+						<p>Двойной эспрессо и нежная молочная пена.</p>
+						<div class="drink-bottom"><span>200 мл</span><strong>260 ₽</strong></div>
+					</article>
+					<article class="drink-card">
+						<div class="drink-top"><span class="drink-number">03</span><span class="drink-symbol latte" aria-hidden="true"></span></div>
+						<h3>Латте</h3>
+						<p>Мягкий вкус, много молока и лёгкая сладость.</p>
+						<div class="drink-bottom"><span>300 мл</span><strong>290 ₽</strong></div>
+					</article>
+					<article class="drink-card">
+						<div class="drink-top"><span class="drink-number">04</span><span class="drink-symbol raf" aria-hidden="true"></span></div>
+						<h3>Раф</h3>
+						<p>Сливочный кофе с ванилью и воздушной текстурой.</p>
+						<div class="drink-bottom"><span>300 мл</span><strong>320 ₽</strong></div>
+					</article>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer" id="contacts">
+		<div class="container footer-inner">
+			<a class="brand footer-brand" href="#top">
+				<span class="brand-mark" aria-hidden="true">м.</span>
+				<span>моя кофейня</span>
+			</a>
+			<p class="footer-address">Москва, ул. Тихая, 12<br><span>Каждый день, 8:00–21:00</span></p>
+			<a class="footer-link" href="mailto:hello@mycoffee.example">Написать нам <span aria-hidden="true">↗</span></a>
+		</div>
+	</footer>
+</body>
+</html>
